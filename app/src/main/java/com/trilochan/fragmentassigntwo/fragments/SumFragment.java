@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import androidx.fragment.app.Fragment;
-
 import com.trilochan.fragmentassigntwo.R;
 
 
@@ -19,14 +17,13 @@ import com.trilochan.fragmentassigntwo.R;
  */
 public class SumFragment extends Fragment {
 
-
+    //Variable declerations
     EditText editTextFirst, editTextSecond;
     Button buttonSum;
 
     public SumFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

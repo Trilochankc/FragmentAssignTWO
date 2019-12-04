@@ -9,12 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.fragment.app.Fragment;
-
-
 import com.trilochan.fragmentassigntwo.R;
-
 import java.util.HashMap;
 
 /**
@@ -22,6 +18,8 @@ import java.util.HashMap;
  */
 public class ReverseStringFragment extends Fragment {
 
+    //Variable declerations
+    //creating view because we cant use findviewbymyid directly
     View view;
     EditText etReverse;
     Button buttonReverse;

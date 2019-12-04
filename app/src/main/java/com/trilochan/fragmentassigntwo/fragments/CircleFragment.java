@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import androidx.fragment.app.Fragment;
-
 import com.trilochan.fragmentassigntwo.R;
 
 
@@ -31,7 +29,7 @@ public class CircleFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // Inflate the layout for this fragments
         View view = inflater.inflate(R.layout.fragment_circle, container, false);
 
         buttoncircle = view.findViewById(R.id.btnCalRadius);

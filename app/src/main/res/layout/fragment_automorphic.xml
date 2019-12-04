@@ -38,5 +38,4 @@
             android:id="@+id/textAuto"/>
 
     </LinearLayout>
-
 </LinearLayout>

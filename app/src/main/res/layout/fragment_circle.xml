@@ -29,5 +29,4 @@
             android:text="Calculate Radius" />
 
     </LinearLayout>
-
 </FrameLayout>

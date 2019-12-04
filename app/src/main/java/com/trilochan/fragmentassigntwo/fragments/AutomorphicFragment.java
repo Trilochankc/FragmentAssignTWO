@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.fragment.app.Fragment;
-
 import com.trilochan.fragmentassigntwo.R;
 
 
@@ -44,7 +42,8 @@ public class AutomorphicFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 int N = Integer.parseInt(editTextNumber.getText().toString());
-                // called function
+                // calling function
+                //setting up result
                 textViewAuto.setText(isAutomorphic(N)? "The " + N + " is automorphic number" : "This " + N + " is not an Automorphic number");
             }
         });
@@ -53,6 +52,7 @@ public class AutomorphicFragment extends Fragment {
     }
 
     // Function to check Automorphic number (Copied from internet)
+    //N is decleared as variable int
     static boolean isAutomorphic(int N)
     {
         int sq = N * N;

@@ -3,11 +3,9 @@ package com.trilochan.fragmentassigntwo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import com.trilochan.fragmentassigntwo.fragments.AutomorphicFragment;
 import com.trilochan.fragmentassigntwo.fragments.CircleFragment;
 import com.trilochan.fragmentassigntwo.fragments.PalendromeFragment;
